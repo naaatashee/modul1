@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int N, summa = 0, k = 0;
+    do{
+        printf("N: ");
+        scanf("%d", &N);
+    }while(N<=1);
+    
+    while (summa<=N)
+    {
+        k++;
+        summa = summa + 3;
+    }
+    printf("K: %d\n", k);
+    printf("Sum: %d\n", summa);
+    return 0;
+}
