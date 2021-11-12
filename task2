@@ -1,0 +1,16 @@
+#include <stdio.h>
+ 
+int main()
+{
+    int a, b, dob=1;
+    printf("A: ");
+    scanf ("%d", &a);
+    printf("\nB: ");
+    scanf ("%d", &b);
+    
+    for (int i = a; i <= b; i++)
+    {
+        dob *= i;
+    }
+    printf ("A*B=%d\n", dob);
+}
